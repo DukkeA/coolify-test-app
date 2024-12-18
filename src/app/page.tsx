@@ -21,6 +21,7 @@ export default function Home() {
             .
           </li>
           <li>Coolify FTW! 🚀</li>
+          <li>{process.env.NEXT_PUBLIC_TEST}</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
